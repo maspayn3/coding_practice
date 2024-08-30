@@ -1,0 +1,18 @@
+On WSL2 / Ubuntu 22.04 install java with;
+       $ sudo apt-get install openjdk-17-jdk
+
+
+Java
+    - general purpose
+    - concurrent
+    - strongly typed
+    - class-based object-oriented language
+
+
+    javac {*.java} 
+        - compiles the classes found in .java file into .class files
+
+    .class files can be run with 
+        $ java {*.class}
+
+        
