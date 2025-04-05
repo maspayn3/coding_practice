@@ -42,6 +42,19 @@ def minTimeToVisitAllPoints(points):
 
     return total_time
 
+def solution_optimal(points):
+    time_taken = 0
+
+    x1, y1 = points.pop()
+    while points:
+        x2, y2 = points.pop()
+        time_taken += max(abs(y2 - y1), abs(x2 - x1))
+        x1, y1, = x2, y2
+
+    return time_taken
+
+
+
 
 def main():
     minTimeToVisitAllPoints([[1,1],[3,4],[-1,0]])

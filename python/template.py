@@ -1,5 +1,3 @@
-import heapq
-
 def main():
     pass
 
