@@ -6,7 +6,6 @@ def subset_xor_sum(nums: List[int]):
             return total
         
         dfs(i + 1, total ^ nums[i])  + dfs(i + 1, total) 
-
     return dfs(0, 0)
 
 def main():
