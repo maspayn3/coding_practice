@@ -1,3 +1,5 @@
 === Categories for each LeetCode Problem ===
 
 DP: 2140
+
+String: 38
