@@ -52,7 +52,6 @@ def compress_lc_solution(chars: List[str]):
         res += 1
 
         if group_length > 1:
-
             #  way cleaner and more pythonic way to handle the lengths
             str_repr = str(group_length)
             # can just swap a range of a list, crazy!!
@@ -62,7 +61,7 @@ def compress_lc_solution(chars: List[str]):
     return res
 
 def main():
-    chars =["a","a","a","a","a","b"]
+    chars = ["a","a","a","a","a","b"]
     print(compress(chars))
 
 if __name__ == '__main__':
